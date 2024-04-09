@@ -6,7 +6,7 @@
 
 ### 1. Instalar Node.js
 
-Para instalar Node.js es tan simple como instalar un programa habitual. 
+Para instalar Node.js es tan simple como instalar un programa habitual.
 En el link de abajo podrás instalar Node.js desde su página oficial.
 [**Link Node.js**](https://nodejs.org/en/download)
 
@@ -27,6 +27,7 @@ nest --version
 Asi sabremos si tenemos instalado la CLI de NestJS y la versión que tenemos
 
 ## Realizar el proyecto
+
 ### 1. Crear el proyecto
 
 Para crear un nuevo proyecto en NestJS debemos ejecutar el siguiente comando, reemplazando "**project_name**" por el nombre de el proyecto que queremos crear:
@@ -80,6 +81,7 @@ pip freeze
 Este comando te mostrará la versión que tienes de Django.
 
 ## Realizar el Proyecto
+
 ### 1. Crear el proyecto
 
 Para crear un proyecto de django, deberás ejecutar el siguiente comando en el Símbolo del sistema, reemplazando "**project_name**" por el nombre de tu proyecto:
@@ -98,7 +100,7 @@ Dentro de la consola, ingresamos el siguiente comando:
 cd project_name
 ```
 
-Después debemos abrir el proyecto con VSCode; usualmente el proyecto se abre en VSCode con el comando: 
+Después debemos abrir el proyecto con VSCode; usualmente el proyecto se abre en VSCode con el comando:
 
 ```cmd
 code .
@@ -171,6 +173,7 @@ Dentro de ese link podrás instalar la versión que desees, pero recuerda que a 
 ![[Pasted image 20240408224913.png]]
 
 ## Realizar el proyecto
+
 ### 1. Crear el proyecto
 
 Para crear un proyecto de .Net, debes ingresar al Símbolo del Sistema y ejecutar el siguiente comando:
@@ -187,7 +190,7 @@ dotnet new type -o project_name
 
 ### 2. Abrir proyecto en VSCode
 
-Después de crear nuestro proyecto, debes abrirlo con VSCode o cualquier otro editor de código que tengas; en el caso de VSCode, te saldrá una pantalla como la siguiente: 
+Después de crear nuestro proyecto, debes abrirlo con VSCode o cualquier otro editor de código que tengas; en el caso de VSCode, te saldrá una pantalla como la siguiente:
 
 ![[Pasted image 20240408230921.png]]
 
