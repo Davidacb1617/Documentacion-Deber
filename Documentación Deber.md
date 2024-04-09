@@ -57,11 +57,12 @@ Para poder crear un proyecto en Django, debemos primero instalar Python. En el l
 [**Link Python**](https://www.python.org/downloads/)
 
 A diferencia de Node.js, para instalar Python debemos realizar una pequeña modificación, ya que a la hora de ejecutar el instalador de Python, debemos marcar las siguientes casillas:
-![[Pasted image 20240408222053.png]]
+<image src="Images\python casilla.png">
 
 En la parte inferior se encuentran dos casillas, lo importante es que tengas activada la casilla "**Add python.exe to PATH**", pero si puedes activar ambas, es mucho mejor.
 
-![[Pasted image 20240408222202.png]]
+<image src="Images\python casilla marcada.png">
+
 
 ## 2. Descargar Django
 
@@ -112,15 +113,15 @@ Pero si no se abre, dirígete a la carpeta en la cual guardaste tu proyecto y ar
 
 Al momento de entrar en nuestro proyecto, te deberá salir una pantalla con la siguiente:
 
-![[Pasted image 20240408223414.png]]
+<image src="Images\proyecto pyrhon.png">
 
 Y al desplegar la carpeta, nos van a salir los siguientes archivos:
 
-![[Pasted image 20240408223521.png]]
+<image src="Images\proyecto pyrhon1.png">
 
 Dentro de esta carpeta vamos a crear un nuevo archivo llamado "**views.py**":
 
-![[Pasted image 20240408223600.png]]
+<image src="Images\proyecto pyrhon2.png">
 
 Después de crear el archivo "**views.py**", ingresamos el siguiente código al archivo:
 
@@ -137,11 +138,11 @@ Aquí estamos definiendo la función "**index**" y haciendo que nos de una respu
 
 Ahora nos dirigimos al archivo llamado "**urls.py**", el cual contiene un código como el siguiente:
 
-![[Pasted image 20240408224013.png]]
+<image src="Images\urls.png">
 
 A este código vamos a modificar la url y vamos a añadir una nueva de la siguiente forma:
 
-![[Pasted image 20240408224052.png]]
+<image src="Images\urls modified.png">
 
 ### 5. Ejecutar el servidor
 
@@ -153,11 +154,11 @@ python manage.py runserver
 
 Al ejecutar ese comando, nos saldrá una pantalla como la siguiente:
 
-![[Pasted image 20240408224403.png]]
+<image src="Images\terminal djano.png">
 
 Solo nos quedaría ingresar a la dirección que se muestra en la pantalla anterior, al ingresar en esa dirección, nos debería aparecer una pantalla parecida a la siguiente:
 
-![[Pasted image 20240408224518.png]]
+<image src="Images\hola mundo django.png">
 
 ## ## ¿Cómo realizar un proyecto "Hola Mundo en .Net"?
 
@@ -170,7 +171,7 @@ Para descargar dotnet, debes ingresar en el link de abajo y descargarlo como cua
 
 Dentro de ese link podrás instalar la versión que desees, pero recuerda que a la hora de instalarlo debes tomar en cuenta que debes de instalar la versión correcta de tu computadora, sea Linux, Windows o Mac.
 
-![[Pasted image 20240408224913.png]]
+<image src="Images\sdk.png">
 
 ## Realizar el proyecto
 
@@ -184,7 +185,7 @@ dotnet new type -o project_name
 
 **type**: en esta parte es la especificación del proyecto, ya que en .net de pueden crear diferentes tipos de proyectos, estos son los que se pueden crear:
 
-![[Pasted image 20240408230515.png | 800]]
+<image src="Images\type project.png">
 
 **-o**: esto se refiere a la salida del proyecto, en el caso de "**o**", esta inicial significa "**output**"
 
@@ -192,7 +193,7 @@ dotnet new type -o project_name
 
 Después de crear nuestro proyecto, debes abrirlo con VSCode o cualquier otro editor de código que tengas; en el caso de VSCode, te saldrá una pantalla como la siguiente:
 
-![[Pasted image 20240408230921.png]]
+<image src="Images\.net project.png">
 
 ### 3. Correr el Proyecto
 
@@ -209,6 +210,6 @@ dotnet run
 
 Como nuestro proyecto es de tipo "**console**", nuestro proyecto se va a ejecutar en la consola de la siguiente manera:
 
-![[Pasted image 20240408231401.png]]
+<image src="Images\terminal debug .net.png">
 
 ### ASI DE FACIL PUEDES CREAR TUS PRIMEROS PROYECTOS EN NESTJS, DJANGO Y .NET
